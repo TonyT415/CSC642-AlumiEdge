@@ -5,8 +5,31 @@
   height: 50px;
 }
 
-#alumniEdge {
+#alumni-edge {
   margin-top: 0px;
   cursor: pointer;
   padding-top: 5px;
 }
+
+#profile-page {
+  display: grid;
+  grid-template-columns: repeat(2, 450px);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+#professor {
+  grid-column: 1;
+}
+
+#professor-info {
+  grid-column: 2;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+#course {
+  display: flex;
+  gap: 10px;
+}
+

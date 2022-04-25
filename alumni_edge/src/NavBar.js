@@ -1,16 +1,18 @@
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const navigate = useNavigate();
 
   const redirectHome = () => {
-    navigate('/home');
+    navigate('/');
   };
 
   return (
     <div>
       <nav id="navbar">
-        <h1 id="alumniEdge" onClick={redirectHome}>Alumni Edge</h1>
+        <h1 id="alumni-edge" onClick={redirectHome}>Alumni Edge</h1>
+        {/* temporary links to check pages */}
+        <Link to='/profile'>Profile</Link>
       </nav>
     </div>
   );

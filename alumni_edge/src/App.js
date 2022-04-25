@@ -1,7 +1,8 @@
 import './App.css';
-import { Routes, Route, Link, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import NavBar from './NavBar';
 // import HomePage from '/Homepage';
+import Profile from './Profile';
 
 function App() {
   return (
@@ -10,10 +11,11 @@ function App() {
       <Routes>
         {/* example of a route for routing to home, results, profile */}
         {/* <Route path="/registration" element={<HomePage />} /> */}
+        <Route path="/profile" element={<Profile />} />
       </Routes>
     </BrowserRouter>
     
-  );
+ );
 }
 
 export default App;
