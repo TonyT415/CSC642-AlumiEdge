@@ -10,7 +10,7 @@ const NavBar = () => {
   return (
     <div>
       <nav id="navbar">
-        <h1 onClick={redirectHome}>Alumni Edge</h1>
+        <h1 id="alumniEdge" onClick={redirectHome}>Alumni Edge</h1>
       </nav>
     </div>
   );
