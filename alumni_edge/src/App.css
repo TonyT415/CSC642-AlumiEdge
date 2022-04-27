@@ -33,3 +33,37 @@
   gap: 10px;
 }
 
+#steps {
+  justify-content: center;
+  display: flex;
+  max-width: 900px;
+  margin: auto;
+  /* text-align: center; */
+}
+
+#step1 {
+  width: 33%;
+  float: left;
+}
+
+#step2 {
+  width: 33%;
+  float: left;
+}
+
+#step3 {
+  width: 33%;
+  float: right;
+}
+
+.stepBox {
+  justify-self: center;
+  background-color: lightgray;
+  width: 260px;
+  height: 350px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 10px;
+}
