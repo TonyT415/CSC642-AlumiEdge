@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import styles from "./styles.css";
 
 const Profile = () => {
   const navigate = useNavigate()
