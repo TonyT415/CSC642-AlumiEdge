@@ -11,7 +11,11 @@ const HomePage = () => {
           <div class="stepBox">
             <h4 class="title">School</h4>
             <div>
-
+              <select class="choiceList">
+                <option>Select School</option>
+                <option>San Francisco State University</option>
+                <option>University of San Francisco</option>
+              </select>
             </div>
           </div>
 
@@ -22,7 +26,11 @@ const HomePage = () => {
           <div class="stepBox">
             <h4 class="title">Department</h4>
             <div>
-
+              <select class="choiceList">
+                <option>Select Department</option>
+                <option>Mathematics</option>
+                <option>Computer Science</option>
+              </select>
             </div>
           </div>
 
@@ -33,7 +41,10 @@ const HomePage = () => {
           <div class="stepBox">
             <h4 class="title">Professor</h4>
             <div>
-
+              <select class="choiceList">
+                <option>Select Professors</option>
+                <option>Firstname Lastname</option>
+              </select>
             </div>
           </div>
 
