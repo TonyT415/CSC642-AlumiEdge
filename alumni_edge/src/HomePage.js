@@ -1,4 +1,4 @@
-
+import styles from "./styles.module.css";
 
 const HomePage = () => {
 
