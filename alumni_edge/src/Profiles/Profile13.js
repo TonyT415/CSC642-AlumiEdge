@@ -37,7 +37,7 @@ const Profile13 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Toby Mcclain is a Professor in the Department of Computer Science at San Francisco State University, where he has been since 1994. From 2013 to 2018 he served as Department Chair. He received his Ph.D. in Computer Science from the University of Rochester in 1994.</p>
           </div>
 
         </div>

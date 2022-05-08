@@ -37,7 +37,7 @@ const Profile15 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Brett Bellamy is an associate professor of mathematics education at San Francisco State University. A former public high school mathematics teacher from Atlanta, Georgia, he earned her doctorate in education from Harvard University.</p>
           </div>
 
         </div>

@@ -38,7 +38,7 @@ const Profile10 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Zachery Wood completed his Ph.D. at Cornell University and his undergraduate studies at Rice University. His research interests lie in the area of programming languages, ranging from theory to design to implementation. He has collaborated actively with researchers in several other disciplines of computer science, particularly computer architecture on problems at the hardware/software interface.</p>
           </div>
 
         </div>

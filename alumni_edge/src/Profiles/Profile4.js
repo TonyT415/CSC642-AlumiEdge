@@ -37,7 +37,8 @@ const Profile4 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Alice Adamson received a B.A. in Economics and Commerce from the University of Rome, and a Ph.D. (Dottorato di Ricerca) in Political Economy from the University of Siena.
+</p>
           </div>
 
         </div>

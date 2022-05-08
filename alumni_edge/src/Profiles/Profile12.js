@@ -37,7 +37,7 @@ const Profile12 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Ph.D., Chemistry, University of North Carolina, Chapel Hill M.S., Psychology, Duke University B.A., History, Queens University of Charlotte</p>
           </div>
 
         </div>

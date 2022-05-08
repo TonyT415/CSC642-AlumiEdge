@@ -37,7 +37,7 @@ const Profile11 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Adam holds Ph.D. and M.S. degrees from the Computer Science Department at Stanford University. Prior to his PhD, Adam obtained M.S. and B.S. degrees from the University of Kaiserslautern, Germany. </p>
           </div>
 
         </div>

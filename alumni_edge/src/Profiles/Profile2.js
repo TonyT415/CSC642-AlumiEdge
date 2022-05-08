@@ -37,7 +37,8 @@ const Profile2 = () => {
 
           <div className={styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Stefan Herring specializes in linguistic anthropology, language ideology, language politics, nationalism, popular culture, and post-Soviet states. He holds Ph.D., Anthropology, University of Michigan, 1998
+</p>
           </div>
 
         </div>

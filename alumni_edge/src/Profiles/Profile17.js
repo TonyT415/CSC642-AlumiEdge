@@ -37,7 +37,7 @@ const Profile17 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Nabeel Broadhurst received his Ph.D. degree in computer science from Carnegie Mellon University. He also holds M.S. degrees from the University of California at Berkeley and Carnegie Mellon University.</p>
           </div>
 
         </div>
