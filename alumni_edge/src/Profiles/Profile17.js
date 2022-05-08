@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import styles from "../styles.module.css";
 
 const Profile17 = () => {
   const navigate = useNavigate()
@@ -12,13 +13,13 @@ const Profile17 = () => {
       <h1>Profile</h1>
       <button onClick={returnToResults}>Back</button>
       <div id="profile-page">
-        <div id="professor">
-          <img src={require("../images/profile17.png")} alt="Professor" width="500px" height="auto" />
+        <div className = {styles.bio} id="professor">
+          <img className = {styles.pic} src={require("../images/profile17.png")} alt="Professor" width="500px" height="auto" />
           <h2>Nabeel Broadhurst</h2>
         </div>
 
         <div id="professor-info">
-          <div id="courses">
+          <div className = {styles.table} id="courses">
             <h3>Courses</h3>
             <div id="course">
               <p className="class">CSC 641 Computer Performance Evaluation (Units: 3)</p>
@@ -34,7 +35,7 @@ const Profile17 = () => {
             </div>
           </div>
 
-          <div id="bio">
+          <div className = {styles.table} id="bio">
             <h3>Bio</h3>
             <p>Professor Bio</p>
           </div>
