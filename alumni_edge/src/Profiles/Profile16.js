@@ -37,7 +37,7 @@ const Profile16 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Kevin Harris received an A.B. in mathematics from Harvard University and M.S. and Ph.D. degrees in Computer Science from Stanford University.</p>
           </div>
 
         </div>

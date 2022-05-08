@@ -37,7 +37,8 @@ const Profile1 = () => {
 
           <div className={styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Maddison Robin joined San Francisco State University as an adjunct instructor teaching ACCT 301 in fall 2017. She received her Bachelor of Science Degree in Business Education at South Carolina State University, Masters in Business Administration (Finance) at Webster University, and recently completed her Ph.D in Management/Accounting at Walden University.
+</p>
           </div>
 
         </div>

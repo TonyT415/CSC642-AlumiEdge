@@ -37,7 +37,7 @@ const Profile9 = () => {
 
           <div className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Tony Adkins is an assistant professor of accountancy at the San Francisco State University. Prior to completing his PhD in accountancy at Bentley University, he received his bachelor’s degree from the University of Connecticut.</p>
           </div>
 
         </div>

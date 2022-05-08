@@ -37,7 +37,7 @@ const Profile5 = () => {
 
           <div  className = {styles.table} id="bio">
             <h3>Bio</h3>
-            <p>Professor Bio</p>
+            <p>Deacon Livingston is an intellectual historian specializing in twentieth-century Europe. He earned his BA in Mathematics and History at the University of Cambridge, and his PhD at Harvard University. </p>
           </div>
 
         </div>
