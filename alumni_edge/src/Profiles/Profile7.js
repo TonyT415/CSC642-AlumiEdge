@@ -5,7 +5,7 @@ const Profile7 = () => {
   const navigate = useNavigate()
 
   const returnToResults = () => {
-    navigate('/results')
+    navigate('/')
   }
 
   return (
