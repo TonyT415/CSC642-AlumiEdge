@@ -1,0 +1,23 @@
+:root {
+    --main-bg-color: grey;
+  }
+
+.test{
+    background: var(--main-bg-color);
+}
+
+/* we are going to create the grey box similar to figma */
+.bio{
+    text-align: center;
+    /* margin: 10vw;
+    padding: 1rem; */
+}
+.pic{
+    background-color: var(--main-bg-color);
+    padding: 1rem;
+}
+
+.table{
+    background-color: var(--main-bg-color);
+    margin: 1rem;
+}
