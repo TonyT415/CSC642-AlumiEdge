@@ -13,7 +13,7 @@
 
 #profile-page {
   display: grid;
-  grid-template-columns: repeat(2, 450px);
+  grid-template-columns: repeat(2, 525px);
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
 }
@@ -31,29 +31,52 @@
 #course {
   display: flex;
   gap: 10px;
+  margin-top: -15px;
+  margin-bottom: -20px;
+}
+
+.class {
+  width: 475px;
+}
+
+.percentage {
+  width: 50px;
+  font-weight: 700;
+}
+
+#homePage {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 #steps {
   justify-content: center;
   display: flex;
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto;
   /* text-align: center; */
 }
 
 #step1 {
-  width: 33%;
-  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* width: 33%;
+  float: left; */
 }
 
 #step2 {
-  width: 33%;
-  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* width: 33%;
+  float: left; */
 }
 
 #step3 {
-  width: 33%;
-  float: right;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* width: 33%;
+  float: right; */
 }
 
 .stepBox {
@@ -68,9 +91,19 @@
   padding-top: 10px;
 }
 
-.choiceList{
+.choiceList {
   width: 200px;
   display: block;
   margin: 0 auto;
   text-align: center;
+  cursor: pointer;
+}
+
+#submit {
+  margin-top: 15px;
+  width: 100px;
+  height: 35px;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
 }
