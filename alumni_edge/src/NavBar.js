@@ -12,7 +12,7 @@ const NavBar = () => {
       <nav id="navbar">
         <h1 id="alumni-edge" onClick={redirectHome}>Alumni Edge</h1>
         {/* temporary links to check pages */}
-        <Link to='/profile'>Profile</Link>
+        {/* <Link to='/profile'>Profile</Link>
         <Link to='/profile1'>Profile1</Link>
         <Link to='/profile2'>Profile2</Link>
         <Link to='/profile3'>Profile3</Link>
@@ -29,7 +29,7 @@ const NavBar = () => {
         <Link to='/profile14'>Profile14</Link>
         <Link to='/profile15'>Profile15</Link>
         <Link to='/profile16'>Profile16</Link>
-        <Link to='/profile17'>Profile17</Link>
+        <Link to='/profile17'>Profile17</Link> */}
       </nav>
     </div>
   );

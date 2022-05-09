@@ -1,6 +1,102 @@
-//import styles from "./styles.module.css";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
+
+  const navigate = useNavigate();
+
+  const [university, setUniversity] = React.useState("");
+  const [department, setDepartment] = React.useState("");
+  const [professor, setProfessor] = React.useState("");
+
+  const handleSubmit = () => {
+    console.log(university);
+    console.log(department);
+    console.log(professor);
+
+    if (university === "San Francisco State University") {
+      if (department === "Accounting") {
+        if (professor === "Maddison Robin") {
+          navigate('/profile1');
+        } else if (professor === "Tony Adkins") {
+          navigate('/profile9');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "Anthropology") {
+        if (professor === "Stefan Herring") {
+          navigate('/profile2');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "Business") {
+        if (professor === "Gianni Bevan") {
+          navigate('/profile3');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "Economics") {
+        if (professor === "Alice Adamson") {
+          navigate('/profile4');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "History") {
+        if (professor === "Deacon Livingston") {
+          navigate('/profile5');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "Humanities") {
+        if (professor === "Matt Smith") {
+          navigate('/profile6');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "Biology") {
+        if (professor === "Reid Carty") {
+          navigate('/profile7');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "English") {
+        if (professor === "Trystan Bowler") {
+          navigate('/profile8');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "Computer Science") {
+        if (professor === "Zachery Wood") {
+          navigate('/profile10');
+        } else if (professor === "Adam Harvey") {
+          navigate('/profile11');
+        } else if (professor === "Ronnie Jennings") {
+          navigate('/profile12');
+        } else if (professor === "Toby Mcclain") {
+          navigate('/profile13');
+        } else if (professor === "Sean Ibarra") {
+          navigate('/profile14');
+        } else if (professor === "Kevin Harris") {
+          navigate('/profile16');
+        } else if (professor === "Nabeel Broadhurst") {
+          navigate('/profile17');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else if (department === "Mathematics") {
+        if (professor === "Brett Bellamy") {
+          navigate('/profile15');
+        } else {
+          alert("Professor not found in department or school");
+        }
+      } else {
+          alert("Professor not found in department or school");
+        }
+    } else {
+      alert("Professor not found in department or school");
+    }
+
+  }
 
   return (
     <div id="homePage">
@@ -11,7 +107,7 @@ const HomePage = () => {
           <div class="stepBox">
             <h4 class="title">School</h4>
             <div>
-              <select class="choiceList">
+              <select class="choiceList" onChange={e => setUniversity(e.target.value)}>
                 <option>Select School</option>
                 <option>San Francisco State University</option>
                 <option>University of San Francisco</option>
@@ -26,7 +122,7 @@ const HomePage = () => {
           <div class="stepBox">
             <h4 class="title">Department</h4>
             <div>
-              <select class="choiceList">
+              <select class="choiceList" onChange={e => setDepartment(e.target.value)}>
                 <option>Select Department</option>
                 <option>Accounting</option>
                 <option>Anthropology</option>
@@ -37,7 +133,7 @@ const HomePage = () => {
                 <option>English</option>
                 <option>History</option>
                 <option>Humanities</option>
-                <option>Mathematics</option>                
+                <option>Mathematics</option>
               </select>
             </div>
           </div>
@@ -49,7 +145,7 @@ const HomePage = () => {
           <div class="stepBox">
             <h4 class="title">Professor</h4>
             <div>
-              <select class="choiceList">
+              <select class="choiceList" onChange={e => setProfessor(e.target.value)}>
                 <option>Select Professors</option>
                 <option>Adam Harvey</option>
                 <option>Alice Adamson</option>
@@ -76,7 +172,7 @@ const HomePage = () => {
       </div>
 
       <div>
-        <button id="submit">Submit</button>
+        <button id="submit" onClick={handleSubmit}>Submit</button>
       </div>
     </div>
   );
