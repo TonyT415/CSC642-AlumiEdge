@@ -1,6 +1,7 @@
 import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import NavBar from './NavBar';
+import Footer from './Footer';
 import HomePage from './HomePage';
 import Profile from './Profile';
 import Profile1 from './Profiles/Profile1';
@@ -25,6 +26,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar></NavBar>
+      <Footer></Footer>
       <Routes>
         {/* example of a route for routing to home, results, profile */}
         <Route path="/" element={<HomePage />} />
