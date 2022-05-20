@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="sitemap">
       <strong>Site Map</strong>
       <ul>
-      <li> <a href="./HomePage">Homepage</a></li>
+      <li> <a href="./">Homepage</a></li>
       <li> <a href="./Profile">Profiles</a></li>
       <li> <a href="https://github.com/TonyT415/CSC642-AlumiEdge">GitHub</a></li>
       </ul>
