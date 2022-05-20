@@ -14,7 +14,7 @@ const Footer = () => (
       <div className="contact">
       <strong>Contact Us</strong>
       <ul>
-      <li>Tony - Ttran38@mail.sfsu.edu</li>
+      <li>Tony - ttran38@mail.sfsu.edu</li>
       <li>Mohammad - malhabli@mail.sfsu.edu</li>
       <li>Bobby - broots@mail.sfsu.edu</li>
       <li>Michael - mfeger@mail.sfsu.edu</li>
